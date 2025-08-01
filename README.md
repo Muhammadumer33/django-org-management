@@ -34,3 +34,44 @@ Follow these steps to run the project locally.
 ```bash
 git clone https://github.com/Muhammadumer33/django-org-management.git
 cd django-org-management
+
+
+2️⃣ Create Virtual Environment
+bash
+Copy
+Edit
+python -m venv venv
+3️⃣ Activate Virtual Environment
+On Windows:
+bash
+Copy
+Edit
+venv\Scripts\activate
+On macOS/Linux:
+bash
+Copy
+Edit
+source venv/bin/activate
+4️⃣ Install Dependencies
+bash
+Copy
+Edit
+pip install django
+
+5️⃣ Apply Migrations
+bash
+Copy
+Edit
+python manage.py migrate
+6️⃣ Create Superuser
+bash
+Copy
+Edit
+python manage.py createsuperuser
+Follow the prompt to enter a username, email, and password.
+
+7️⃣ Run Development Server
+bash
+Copy
+Edit
+python manage.py runserver
